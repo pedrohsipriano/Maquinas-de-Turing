@@ -4,7 +4,7 @@
 **Disciplina:** Linguagens Formais e Autômatos
 
 <!-- readme-only -->
-📄 **[Baixar o trabalho em PDF](<Máquinas de Turing.pdf>)**
+**[Baixar o trabalho em PDF](<Máquinas de Turing.pdf>)**
 <!-- /readme-only -->
 
 ---
@@ -122,7 +122,7 @@ table:
 - **Estados percorridos:** `q0 → q1 → q2 → q0 → q3 → aceita`
 - **Fita final:** `X Y`
 - **Explicação:** o único `0` é pareado com o único `1`; em seguida, `q3` encontra apenas branco após os `Y`s.
-- **Resultado:** ✅ **ACEITA**
+- **Resultado:** **ACEITA**
 
 ![Teste 1 — entrada 01](imagens/teste1.png)
 
@@ -138,7 +138,7 @@ table:
 
 - **Fita final:** `X X Y Y`
 - **Explicação:** os dois `0`s são pareados com os dois `1`s; ao final, restam apenas `Y`s antes do branco.
-- **Resultado:** ✅ **ACEITA**
+- **Resultado:** **ACEITA**
 
 ![Teste 2 — entrada 0011](imagens/teste2.png)
 
@@ -147,7 +147,7 @@ table:
 - **Estados percorridos:** `q0 → q1 → q2 → q0 → q3 → rejeita`
 - **Fita final:** `X Y 1`
 - **Explicação:** após o único `0` ser pareado, ainda resta um `1` sem correspondente, que é encontrado pelo estado `q3`.
-- **Resultado:** ❌ **REJEITA**
+- **Resultado:** **REJEITA**
 
 ![Teste 3 — entrada 011](imagens/teste3.png)
 
@@ -165,7 +165,7 @@ Registro visual de uma execução completa no simulador, do início até a aceit
   ```
 
 - **Fita final:** `X X X Y Y Y`
-- **Resultado:** ✅ **ACEITA**
+- **Resultado:** **ACEITA**
 
 **Início da execução:** a máquina está no estado `q0`, com a cabeça sobre o primeiro `0`.
 
